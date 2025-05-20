@@ -13,6 +13,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: #D1BE9C; 
+     background-color: #cc8b86;
+    background-color: #F9EAE1;  */
  }
  body{
     font-family: "poppins",sans-serif;
@@ -21,14 +24,17 @@ nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1e1e2f;
-    padding: 10px 40px;
+     background-color: #cc8b86;
+;
+    /* padding: 10px 40px; */
     box-shadow: 0px 2px 5px rgba(o,0,0.1);
     position:sticky;
     top: 0;
     z-index:1000 ;
+    
 }
 nav div img{
+    border-radius: 50%;
     height: 50px;
     width: auto;
 }
@@ -107,7 +113,7 @@ section h1{
     /* gap: 30px; */
 }
 .productcard{
-    background-color: #f5f5f5;
+    background-color: #D1BE9C;
     border-radius: 10px;
     padding: 20px;
     overflow: hidden;
