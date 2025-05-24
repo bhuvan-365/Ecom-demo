@@ -119,8 +119,10 @@ section h1{
     background-color: #D1BE9C;
     border-radius: 10px;
     padding: 20px;
+    margin: 10px;
     overflow: hidden;
-    width: 22vw;
+ width: 252px;
+    height: 390px;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
     transition: 0.3s ease;
 }
